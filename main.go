@@ -27,9 +27,10 @@ func main() {
 		return
 
 	} else {
-		remainingTickets--
+		remainingTickets = remainingTickets - userTickets
 	}
 
 	fmt.Printf("Congrats %v you have successfully booked %v tickets\n", userName, userTickets)
+	fmt.Printf("Available tickets: %v\n", remainingTickets)
 
 }
