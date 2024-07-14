@@ -38,3 +38,6 @@ Run the application:
 ```bash
 go run main.go
 ```
+
+## Screenshot
+![alt text](execution.png)
